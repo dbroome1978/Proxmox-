@@ -35,13 +35,7 @@ function error_exit() {
   echo -e "$flag $msg" 1>&2
   exit $EXIT
 }
-if (whiptail --title "${APP} LXC" --yesno "This will create a New ${APP} LXC. Proceed?" 10 58); then
-    echo "User selected Yes"
-else
-    clear
-    echo -e "⚠ User exited script \n"
-    exit
-fi
+
 function header_info {
 echo -e "${DGN}
     ______          __         
