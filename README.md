@@ -2,7 +2,7 @@
 
 <p align="center"><sub> Always remember to use due diligence when sourcing scripts and automation tasks from third-party sites. </sub></p>
 
-<a href="https://github.com/tteck/Proxmox/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" ></a> <a href="https://github.com/tteck/Proxmox/discussions"><img src="https://img.shields.io/badge/%F0%9F%92%AC-Discussions-orange" /></a> <a href="https://github.com/tteck/Proxmox/blob/main/CHANGELOG.MD"><img src="https://img.shields.io/badge/🔶-Changelog-blue" /></a> <a
+<a href="https://github.com/dbroome1978/Proxmox/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" ></a> <a href="https://github.com/dbroome1978/Proxmox/discussions"><img src="https://img.shields.io/badge/%F0%9F%92%AC-Discussions-orange" /></a> <a href="https://github.com/dbroome1978/Proxmox/blob/main/CHANGELOG.MD"><img src="https://img.shields.io/badge/🔶-Changelog-blue" /></a> <a
 href="https://ko-fi.com/D1D7EP4GF"><img src="https://img.shields.io/badge/%E2%98%95-Buy%20me%20a%20coffee-red" /></a>
 <details>
 <summary markdown="span"> Proxmox Tools </summary>
@@ -19,7 +19,7 @@ The script will give options to Disable the Enterprise Repo, Add/Correct PVE7 So
 Run the following in the Proxmox Shell. ⚠️ **PVE7 ONLY**
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pve-install.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/post-pve-install.sh)"
 ```
 
 It's recommended to answer `y` to all options.
@@ -40,7 +40,7 @@ Cleaning unused kernel images is not only good because of a reduced grub menu, b
 Run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/kernel-clean.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/kernel-clean.sh)"
 ```
 ____________________________________________________________________________________________ 
 
@@ -58,7 +58,7 @@ Proxmox [Edge Kernels](https://github.com/fabianishere/pve-edge-kernel) are cust
 Run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/edge-kernel.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/edge-kernel.sh)"
 ```
 ____________________________________________________________________________________________ 
 
@@ -67,7 +67,7 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> Proxmox CPU Scaling Governor</summary>
  
-<p align="center"><img src="https://github.com/tteck/Proxmox/blob/main/misc/images/cpu.png?raw=true" height="100"/></p>
+<p align="center"><img src="https://github.com/dbroome1978/Proxmox/blob/main/misc/images/cpu.png?raw=true" height="100"/></p>
 
 <h1 align="center" id="heading">Proxmox CPU Scaling Governor </h1>
 
@@ -78,7 +78,7 @@ CPU Scaling Governor enables the operating system to scale the CPU frequency up 
 Run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/scaling-governor.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/scaling-governor.sh)"
 ```
 ____________________________________________________________________________________________ 
 
@@ -96,7 +96,7 @@ Update All LXC's Fast & Easy
 Run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/update-lxcs.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/update-lxcs.sh)"
 ```
 ____________________________________________________________________________________________ 
 
@@ -135,7 +135,7 @@ The script will give options to Disable the Enterprise Repo, Add/Correct PBS Sou
 Run the following in the Proxmox Shell. ⚠️ **Proxmox Backup Server ONLY**
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pbs-install.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/post-pbs-install.sh)"
 ```
 
 It's recommended to answer `y` to all options.
@@ -153,7 +153,7 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> Home Assistant OS VM</summary>
  
-<p align="center"><img src="https://github.com/tteck/Proxmox/blob/main/misc/images/haos.png?raw=true"/></p>
+<p align="center"><img src="https://github.com/dbroome1978/Proxmox/blob/main/misc/images/haos.png?raw=true"/></p>
  
 <h1 align="center" id="heading"> Home Assistant OS VM </h1>
 <h3 align="center"> Option to create VM using Stable, Beta, Dev or Latest Image </h3>
@@ -163,7 +163,7 @@ The script automates the manual process of finding, downloading and extracting t
 To create a new Proxmox Home Assistant OS VM, run the following in the Proxmox Shell
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/vm/haos-vm-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/vm/haos-vm-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  4GB RAM - 32GB Storage - 2vCPU - Stable Image⚡</h3>
  
@@ -178,7 +178,7 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> PiMox HAOS VM</summary>
  
-<p align="center"><img src="https://github.com/tteck/Proxmox/blob/main/misc/images/pimox.png?raw=true" width="100" height="100"/></p>
+<p align="center"><img src="https://github.com/dbroome1978/Proxmox/blob/main/misc/images/pimox.png?raw=true" width="100" height="100"/></p>
  
 <h1 align="center" id="heading"> PiMox HAOS VM </h1>
 <h3 align="center"> Option to create VM using Stable, Beta or Dev Image </h3>
@@ -188,7 +188,7 @@ The script automates the manual process of finding, downloading and extracting t
 To create a new PiMox HAOS VM, run the following in the Proxmox Shell
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/vm/pimox-haos-vm-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/vm/pimox-haos-vm-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  4GB RAM - 32GB Storage - 2vCPU - Stable Image⚡</h3>
  
@@ -215,7 +215,7 @@ A standalone container-based installation of Home Assistant Core
 To create a new Proxmox Home Assistant Container LXC, run the following in the Proxmox Shell.
  
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/homeassistant-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/homeassistant-v4.sh)"
 ```
  
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 16GB Storage - 2vCPU ⚡</h3>
@@ -240,19 +240,19 @@ Save and exit the editor with “Ctrl+O”, “Enter” and “Ctrl+X”
 
 Run in the Proxmox Shell
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/ha-copy-data.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/ha-copy-data.sh)"
  ```
 
 ⚙️ **To Install HACS:**
 
 Run in the LXC console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/hacs.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/hacs.sh)"
 ```
 After install, reboot Home Assistant and **clear browser cache** then Add HACS integration.
 
 
-⚙️ [**Update Menu**](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/update-menu.png)
+⚙️ [**Update Menu**](https://raw.githubusercontent.com/dbroome1978/Proxmox/main/misc/images/update-menu.png)
 
 Run in the LXC console
 ```yaml
@@ -275,7 +275,7 @@ A standalone installation of Home Assistant Core
 To create a new Proxmox Home Assistant Core LXC, run the following in the Proxmox Shell.
  
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/homeassistant-core-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/homeassistant-core-v4.sh)"
 ```
  
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 8GB Storage - 2vCPU ⚡</h3>
@@ -301,7 +301,7 @@ nano .homeassistant/configuration.yaml
 
 <sub>Run in the LXC console</sub>
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/hacs-core.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/hacs-core.sh)"
 ```
 <sub>After install, reboot Home Assistant and **clear browser cache** then Add HACS integration.</sub>
 
@@ -328,7 +328,7 @@ A standalone container-based installation of Home Assistant Core
 To create a new Proxmox Podman Home Assistant Container LXC, run the following in the Proxmox Shell. 
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/podman-homeassistant-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/podman-homeassistant-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 16GB Storage - 2vCPU ⚡</h3>
  
@@ -352,14 +352,14 @@ Save and exit the editor with “Ctrl+O”, “Enter” and “Ctrl+X”
 
 Run in the Proxmox Shell
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/ha-copy-data-podman.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/ha-copy-data-podman.sh)"
  ```
 
 ⚙️ **To allow USB device passthrough:**
  
 Run in the Proxmox Shell. (**replace `106` with your LXC ID**)
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/usb-passthrough.sh)" -s 106
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/usb-passthrough.sh)" -s 106
 ```
  
 Reboot the LXC to apply the changes
@@ -368,7 +368,7 @@ Reboot the LXC to apply the changes
 
 Run in the LXC console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/podman_hacs.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/podman_hacs.sh)"
 ```
 After install, reboot Home Assistant and **clear browser cache** then Add HACS integration.
 
@@ -404,7 +404,7 @@ ________________________________________________________________________________
 To create a new Proxmox ioBroker LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/iobroker-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/iobroker-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
@@ -433,7 +433,7 @@ ________________________________________________________________________________
 To create a new Proxmox openHAB LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/openhab-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/openhab-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
@@ -462,7 +462,7 @@ ________________________________________________________________________________
 To create a new Proxmox Homebridge LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/homebridge-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/homebridge-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 1vCPU ⚡</h3>
@@ -519,7 +519,7 @@ Update from the Homebridge UI
 To create a new Proxmox ESPHome LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/esphome-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/esphome-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 2vCPU ⚡</h3>
@@ -549,7 +549,7 @@ ________________________________________________________________________________
 To create a new Proxmox Node-RED LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/node-red-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/node-red-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 1vCPU ⚡</h3>
@@ -574,7 +574,7 @@ npm install -g --unsafe-perm node-red
 
 Run in the LXC console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/node-red-themes.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/node-red-themes.sh)"
 ```
 
 ____________________________________________________________________________________________ 
@@ -593,7 +593,7 @@ ________________________________________________________________________________
 To create a new Proxmox n8n LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/n8n-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/n8n-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 3GB Storage - 2vCPU ⚡</h3>
@@ -628,7 +628,7 @@ ________________________________________________________________________________
 To create a new Proxmox MQTT LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/mqtt-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/mqtt-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -681,7 +681,7 @@ ________________________________________________________________________________
 To create a new Proxmox EMQX LXC, run the following in the Proxmox Shell.
 
 ```yaml
- bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/emqx-v4.sh)"
+ bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/emqx-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 2vCPU ⚡</h3>
 
@@ -723,7 +723,7 @@ apt update && apt upgrade -y
 <details>
 <summary markdown="span"> Mariadb LXC </summary>
  
-<p align="center"><img src="https://mariadb.com/wp-content/webp-express/webp-images/doc-root/wp-content/themes/sage/dist/images/mariadb-logo-white.png.webp" alt="MariaDB"/><img src="https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/adminer_logo-cl.png" height="60"></p>
+<p align="center"><img src="https://mariadb.com/wp-content/webp-express/webp-images/doc-root/wp-content/themes/sage/dist/images/mariadb-logo-white.png.webp" alt="MariaDB"/><img src="https://raw.githubusercontent.com/dbroome1978/Proxmox/main/misc/images/adminer_logo-cl.png" height="60"></p>
 
 <h1 align="center" id="heading"> Mariadb LXC </h1>
 <h3 align="center"> Option to Install Adminer</h3>
@@ -733,7 +733,7 @@ apt update && apt upgrade -y
 To create a new Proxmox Mariadb LXC, run the following in the Proxmox Shell.
  
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/mariadb-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/mariadb-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 1vCPU ⚡</h3>
@@ -830,7 +830,7 @@ Run in the LXC console
 ```yaml
 apt update && apt upgrade -y
 ```
-⚙️ [**Adminer**](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/adminer.png) (formerly phpMinAdmin) is a full-featured database management tool
+⚙️ [**Adminer**](https://raw.githubusercontent.com/dbroome1978/Proxmox/main/misc/images/adminer.png) (formerly phpMinAdmin) is a full-featured database management tool
  
  `http://your-mariadb-lxc-ip/adminer/`
 
@@ -841,7 +841,7 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> PostgreSQL LXC </summary>
  
-<p align="center"><img src="https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png" height="100"/><img src="https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/adminer_logo-cl.png" height="60"></p>
+<p align="center"><img src="https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png" height="100"/><img src="https://raw.githubusercontent.com/dbroome1978/Proxmox/main/misc/images/adminer_logo-cl.png" height="60"></p>
 
 <h1 align="center" id="heading"> PostgreSQL LXC </h1>
 <h3 align="center"> Option to Install Adminer</h3>
@@ -851,7 +851,7 @@ ________________________________________________________________________________
 To create a new Proxmox PostgreSQL LXC, run the following in the Proxmox Shell.
  
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/postgresql-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/postgresql-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 1vCPU ⚡</h3>
@@ -905,7 +905,7 @@ Run in the LXC console
 ```yaml
 apt update && apt upgrade -y
 ```
-⚙️ [**Adminer**](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/adminer.png) (formerly phpMinAdmin) is a full-featured database management tool
+⚙️ [**Adminer**](https://raw.githubusercontent.com/dbroome1978/Proxmox/main/misc/images/adminer.png) (formerly phpMinAdmin) is a full-featured database management tool
  
  `http://your-PostgreSQL-lxc-ip/adminer/`
 
@@ -929,7 +929,7 @@ ________________________________________________________________________________
 To create a new Proxmox InfluxDB LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/influxdb-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/influxdb-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
@@ -980,7 +980,7 @@ ________________________________________________________________________________
 To create a new Proxmox Zigbee2MQTT LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/zigbee2mqtt-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/zigbee2mqtt-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 2vCPU ⚡</h3>
 
@@ -1041,7 +1041,7 @@ cd /opt/zigbee2mqtt && bash update.sh
 
 Run in the Proxmox Shell
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/z2m-copy-data.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/z2m-copy-data.sh)"
  ```
 
 ____________________________________________________________________________________________ 
@@ -1060,7 +1060,7 @@ ________________________________________________________________________________
 To create a new Proxmox deCONZ LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/deconz-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/deconz-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 2vCPU ⚡</h3>
 
@@ -1089,7 +1089,7 @@ ________________________________________________________________________________
 To create a new Proxmox Z-Wave JS UI LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/zwave-js-ui-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/zwave-js-ui-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 2vCPU ⚡</h3>
 
@@ -1099,13 +1099,13 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/zwave-js-ui-
 
 Run in the Proxmox Shell
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/zwave-copy-data.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/zwave-copy-data.sh)"
  ```
 ⚙️ **To Update Z-Wave JS UI**
 
 Run in the LXC Console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/zwave-js-ui-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/zwave-js-ui-update.sh)"
 ```
 
 ____________________________________________________________________________________________ 
@@ -1129,7 +1129,7 @@ Uptime Kuma is a self-hosted, open source, fancy uptime monitoring and alerting 
 To create a new Proxmox Uptime Kuma LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/uptimekuma-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/uptimekuma-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -1140,7 +1140,7 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/uptimekuma-v
 
 Run in the LXC console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/uptimekuma-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/uptimekuma-update.sh)"
 ```
 ____________________________________________________________________________________________ 
 
@@ -1149,7 +1149,7 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> Prometheus LXC </summary>
  
-<p align="center"><img src="https://github.com/tteck/Proxmox/blob/main/misc/images/prome.png?raw=true" height="100"/></p>
+<p align="center"><img src="https://github.com/dbroome1978/Proxmox/blob/main/misc/images/prome.png?raw=true" height="100"/></p>
 
 <h1 align="center" id="heading"> Prometheus LXC </h1>
 
@@ -1158,7 +1158,7 @@ ________________________________________________________________________________
 To create a new Proxmox Prometheus LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/prometheus-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/prometheus-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 4GB Storage - 1vCPU ⚡</h3>
@@ -1188,7 +1188,7 @@ ________________________________________________________________________________
 To create a new Proxmox Grafana LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/grafana-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/grafana-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -1225,7 +1225,7 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> Docker LXC </summary>
  
-<p align="center"><img src="https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/docker.png" height="100"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/dbroome1978/Proxmox/main/misc/images/docker.png" height="100"/></p>
 
 <h1 align="center" id="heading"> Docker LXC </h1>
 <h3 align="center"> Options to Install Portainer and/or Docker Compose V2</h3>
@@ -1235,7 +1235,7 @@ ________________________________________________________________________________
 To create a new Proxmox Docker LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/docker-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/docker-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 4GB Storage - 2vCPU ⚡</h3>
@@ -1268,7 +1268,7 @@ ________________________________________________________________________________
 To create a new Proxmox Umbrel LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/umbrel-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/umbrel-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
@@ -1298,7 +1298,7 @@ ________________________________________________________________________________
 To create a new Proxmox CasaOS LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/casaos-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/casaos-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
@@ -1332,7 +1332,7 @@ ________________________________________________________________________________
 To create a new Proxmox Debian (curl & sudo) LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/debian-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/debian-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -1360,7 +1360,7 @@ ________________________________________________________________________________
 To create a new Proxmox Ubuntu (curl & sudo) LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/ubuntu-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/ubuntu-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU - 22.04 ⚡</h3>
@@ -1395,7 +1395,7 @@ ________________________________________________________________________________
 To create a new Proxmox Nginx Proxy Manager LXC Container, run the following in the Proxmox Shell.
 
 ```yaml
- bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/nginx-proxy-manager-v4.sh)"
+ bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/nginx-proxy-manager-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 3GB Storage - 1vCPU ⚡</h3>
 
@@ -1427,7 +1427,7 @@ Add the following to your `configuration.yaml` in Home Assistant.
 
 Run in the LXC console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/npm_update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/npm_update.sh)"
 ```
 
 ____________________________________________________________________________________________ 
@@ -1448,7 +1448,7 @@ An application designed to optimize UniFi home and business networks with ease.
 To create a new Proxmox UniFi Network Application LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/unifi-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/unifi-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
@@ -1459,7 +1459,7 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/unifi-v4.sh)
 
 Run in the LXC console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/unifi-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/unifi-update.sh)"
 ```
 ____________________________________________________________________________________________ 
 
@@ -1477,7 +1477,7 @@ Omada Controller is software which is used to manage the EAP
 To create a new Proxmox Omada Controller LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/omada-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/omada-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
@@ -1492,7 +1492,7 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/omada-v4.sh)
  
 ⚙️ **To Update Omada**
 
-[#403](https://github.com/tteck/Proxmox/issues/402#issue-1328460983)
+[#403](https://github.com/dbroome1978/Proxmox/issues/402#issue-1328460983)
 
 ____________________________________________________________________________________________ 
 
@@ -1509,7 +1509,7 @@ ________________________________________________________________________________
 To create a new Proxmox WireGuard LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/wireguard-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/wireguard-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -1562,7 +1562,7 @@ ________________________________________________________________________________
 To create a new Proxmox MeshCentral LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/meshcentral-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/meshcentral-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -1590,7 +1590,7 @@ ________________________________________________________________________________
 To Install Talescale on an existing LXC, run the following in the Proxmox Shell (replace `106` with your LXC ID).
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/add-tailscale-lxc.sh)" -s 106
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/add-tailscale-lxc.sh)" -s 106
 ```
 After the script finishes, reboot the LXC then run `tailscale up` in the LXC console
 
@@ -1617,7 +1617,7 @@ ________________________________________________________________________________
 To Install CrowdSec, ⚠️ run the following in the LXC console.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/crowdsec.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/crowdsec.sh)"
 ```
 
 [CrowdSec](https://crowdsec.net/) is a free, open-source and collaborative IPS. Analyze behaviors, respond to attacks & share signals across the community.
@@ -1638,7 +1638,7 @@ ________________________________________________________________________________
 To create a new Proxmox Keycloak LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/keycloak-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/keycloak-v4.sh)"
 ```
 
 [Keycloak](https://www.keycloak.org/) is an Open Source Identity and Access Management solution for modern Applications and Services.
@@ -1684,7 +1684,7 @@ ________________________________________________________________________________
 To create a new Proxmox Mikrotik RouterOS VM, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/vm/mikrotik-routeros-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/vm/mikrotik-routeros-v4.sh)"
 ```
 Setup is done via VM console.
 
@@ -1711,7 +1711,7 @@ ________________________________________________________________________________
 To create a new Proxmox Plex Media Server LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/plex-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/plex-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
 
@@ -1727,7 +1727,7 @@ apt update && apt upgrade -y
 
 Run in the Proxmox Shell
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/pms-copy-data.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/pms-copy-data.sh)"
  ```
 
 ____________________________________________________________________________________________ 
@@ -1744,7 +1744,7 @@ ________________________________________________________________________________
 To create a new Proxmox Emby Media Server LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/emby-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/emby-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
 
@@ -1766,7 +1766,7 @@ ________________________________________________________________________________
 To create a new Proxmox Jellyfin Media Server LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/jellyfin-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/jellyfin-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
 
@@ -1796,7 +1796,7 @@ ________________________________________________________________________________
 To create a new Proxmox NextCloudPi LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/nextcloudpi-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/nextcloudpi-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
  
@@ -1819,7 +1819,7 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> OpenMediaVault LXC </summary>
  
-<p align="center"><img src="https://github.com/tteck/Proxmox/blob/main/misc/images/omv.png?raw=true" height="100"/></p>
+<p align="center"><img src="https://github.com/dbroome1978/Proxmox/blob/main/misc/images/omv.png?raw=true" height="100"/></p>
 
 <h1 align="center" id="heading"> OpenMediaVault LXC </h1>
 
@@ -1828,7 +1828,7 @@ ________________________________________________________________________________
 To create a new Proxmox OpenMediaVault LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/omv-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/omv-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 2vCPU ⚡</h3>
@@ -1862,7 +1862,7 @@ ________________________________________________________________________________
 To create a new Proxmox Navidrome LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/navidrome-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/navidrome-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 2vCPU ⚡</h3>
@@ -1875,7 +1875,7 @@ To change Navidrome music folder path, edit: `/var/lib/navidrome/navidrome.toml`
 
 Run in the LXC Console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/navidrome-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/navidrome-update.sh)"
 ```
 
 ____________________________________________________________________________________________ 
@@ -1885,7 +1885,7 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> PhotoPrism LXC </summary>
  
-<p align="center"><img src="https://github.com/tteck/Proxmox/blob/main/misc/images/photoprism.png?raw=true" height="100"/></p>
+<p align="center"><img src="https://github.com/dbroome1978/Proxmox/blob/main/misc/images/photoprism.png?raw=true" height="100"/></p>
 
 <h1 align="center" id="heading"> PhotoPrism LXC </h1>
  
@@ -1894,7 +1894,7 @@ ________________________________________________________________________________
 To create a new Proxmox PhotoPrism LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/photoprism-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/photoprism-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
@@ -1917,7 +1917,7 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/photoprism-v
 
 Run in the LXC Console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/photoprism-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/photoprism-update.sh)"
 ```
 ____________________________________________________________________________________________ 
 
@@ -1941,7 +1941,7 @@ ________________________________________________________________________________
 To create a new Proxmox Pi-hole LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/pihole-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/pihole-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
 
@@ -1971,7 +1971,7 @@ An open source authoritative as well as recursive DNS server
 To create a new Proxmox Technitium DNS LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/technitiumdns-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/technitiumdns-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -1981,7 +1981,7 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/technitiumdn
 ⚙️ **To Update Technitium DNS**
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/technitiumdns-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/technitiumdns-update.sh)"
 ```
 __________________________________________________________________________________________ 
 
@@ -1998,7 +1998,7 @@ ________________________________________________________________________________
 To create a new Proxmox AdGuard Home LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/adguard-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/adguard-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -2028,7 +2028,7 @@ ________________________________________________________________________________
 To create a new Proxmox Blocky LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/blocky-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/blocky-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -2062,7 +2062,7 @@ ________________________________________________________________________________
 To create a new Proxmox Paperless-ngx LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/paperless-ngx-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/paperless-ngx-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2048MiB RAM - 4GB Storage - 2vCPU ⚡</h3>
@@ -2080,7 +2080,7 @@ cat paperless.creds
 
 Run in the LXC Console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/paperless-ngx-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/paperless-ngx-update.sh)"
 ```
 ____________________________________________________________________________________________ 
 
@@ -2098,7 +2098,7 @@ ________________________________________________________________________________
 To create a new Proxmox Trilium LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/trilium-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/trilium-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -2109,7 +2109,7 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/trilium-v4.s
 
 Run in the LXC Console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/trilium-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/trilium-update.sh)"
 ```
 
 ____________________________________________________________________________________________ 
@@ -2128,7 +2128,7 @@ ________________________________________________________________________________
 To create a new Proxmox Wiki.js LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/wikijs-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/wikijs-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -2142,7 +2142,7 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> NocoDB LXC </summary>
  
-<p align="center"><img src="https://github.com/tteck/Proxmox/blob/main/misc/images/nocodb.png?raw=true" height="100"/></p>
+<p align="center"><img src="https://github.com/dbroome1978/Proxmox/blob/main/misc/images/nocodb.png?raw=true" height="100"/></p>
 
 <h1 align="center" id="heading"> NocoDB LXC </h1>
 
@@ -2151,7 +2151,7 @@ ________________________________________________________________________________
 To create a new Proxmox NocoDB LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/nocodb-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/nocodb-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 4GB Storage - 1vCPU ⚡</h3>
@@ -2178,7 +2178,7 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> Heimdall Dashboard LXC</summary>
  
-<p align="center"><img src="https://github.com/tteck/Proxmox/blob/main/misc/images/heimdall.png?raw=true" height="100"/></p>
+<p align="center"><img src="https://github.com/dbroome1978/Proxmox/blob/main/misc/images/heimdall.png?raw=true" height="100"/></p>
 
 <h1 align="center" id="heading"> Heimdall Dashboard LXC </h1>
 
@@ -2187,7 +2187,7 @@ ________________________________________________________________________________
 To create a new Proxmox Heimdall Dashboard LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/heimdalldashboard-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/heimdalldashboard-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
  
@@ -2197,7 +2197,7 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/heimdalldash
 
 Run in the LXC console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/heimdalldashboard-all-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/heimdalldashboard-all-update.sh)"
 ```
 
 __________________________________________________________________________________________ 
@@ -2216,7 +2216,7 @@ ________________________________________________________________________________
 To create a new Proxmox Homepage LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/homepage-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/homepage-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  1GB RAM - 3GB Storage - 2vCPU ⚡</h3>
@@ -2229,7 +2229,7 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/homepage-v4.
 
 Run in the LXC console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/homepage-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/homepage-update.sh)"
 ```
 
 ____________________________________________________________________________________________ 
@@ -2248,7 +2248,7 @@ Dashy helps you organize your self-hosted services by making them accessible fro
 To create a new Proxmox Dashy LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/dashy-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/dashy-v4.sh)"
 ```
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 3GB Storage - 2vCPU ⚡</h3>
  
@@ -2260,7 +2260,7 @@ After getting everything setup the way you want in interactive mode and saved to
 
 Run in the LXC Console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/dashy-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/dashy-update.sh)"
 ```
 
 __________________________________________________________________________________________ 
@@ -2276,14 +2276,14 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> File Browser</summary>
  
-<p align="center"><img src="https://github.com/tteck/Proxmox/blob/main/misc/images/filebrowser.png?raw=true" height="100"/></p>
+<p align="center"><img src="https://github.com/dbroome1978/Proxmox/blob/main/misc/images/filebrowser.png?raw=true" height="100"/></p>
 
 <h1 align="center" id="heading"> File Browser </h1>
 
 To Install File Browser, ⚠️ run the following in the LXC console.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/filebrowser.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/filebrowser.sh)"
 ```
 
 [File Browser](https://filebrowser.org/features) is a create-your-own-cloud-kind of software where you can install it on a server, direct it to a path and then access your files through a nice web interface. Many available features!
@@ -2322,7 +2322,7 @@ ________________________________________________________________________________
 To Install VS Code Server, ⚠️ run the following in the LXC console.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/code-server.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/code-server.sh)"
 ```
 
 [VS Code Server](https://code.visualstudio.com/docs/remote/vscode-server) is a service you can run on a remote development machine, like your desktop PC or a virtual machine (VM). It allows you to securely connect to that remote machine from anywhere through a vscode.dev URL, without the requirement of SSH.
@@ -2342,10 +2342,10 @@ ________________________________________________________________________________
 
 <h1 align="center" id="heading"> Webmin System Administration </h1>
 
-To Install Webmin System Administration [(Screenshot)](https://raw.githubusercontent.com/tteck/Proxmox/main/misc/images/file-manager.png), ⚠️ run the following in the LXC console.
+To Install Webmin System Administration [(Screenshot)](https://raw.githubusercontent.com/dbroome1978/Proxmox/main/misc/images/file-manager.png), ⚠️ run the following in the LXC console.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/webmin.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/webmin.sh)"
 ```
 
 If you prefer to manage all aspects of your Proxmox LXC from a graphical interface instead of the command line interface, Webmin might be right for you.
@@ -2394,7 +2394,7 @@ ________________________________________________________________________________
 To create a new Proxmox Syncthing LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/syncthing-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/syncthing-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
@@ -2425,7 +2425,7 @@ Sync files from app to server, share photos & videos, back up your data and stay
 To create a new Proxmox Daemon Sync Server LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/daemonsync-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/daemonsync-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 8GB Storage - 1vCPU ⚡</h3>
@@ -2457,7 +2457,7 @@ Alternative implementation of the Bitwarden server API written in Rust and compa
 To create a new Proxmox Vaultwarden LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/vaultwarden-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/vaultwarden-v4.sh)"
 ```
 ⚠️ Vaultwarden needs to be behind a proxy (Nginx Proxy Manager) to obtain HTTPS and to allow clients to connect.
 
@@ -2478,13 +2478,13 @@ Expect 30+ minute install time.
 
 Run in the LXC console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/vaultwarden-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/vaultwarden-update.sh)"
 ```
 ⚙️ **To Update Web-vault (any)**
 
 Run in the LXC console
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/web-vault-update.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/misc/web-vault-update.sh)"
 ```
 
 ____________________________________________________________________________________________ 
@@ -2503,7 +2503,7 @@ ________________________________________________________________________________
 To create a new Proxmox grocy LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/grocy-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/grocy-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -2543,7 +2543,7 @@ ________________________________________________________________________________
 To create a new MagicMirror Server LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/magicmirror-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/magicmirror-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings: 512MiB RAM - 3GB Storage - 1vCPU ⚡</h3>
@@ -2567,7 +2567,7 @@ ________________________________________________________________________________
 <details>
 <summary markdown="span"> Whoogle LXC </summary>
  
-<p align="center"><img src="https://github.com/tteck/Proxmox/blob/main/misc/images/whoogle.png?raw=true" height="100"/></p>
+<p align="center"><img src="https://github.com/dbroome1978/Proxmox/blob/main/misc/images/whoogle.png?raw=true" height="100"/></p>
 
 <h1 align="center" id="heading"> Whoogle LXC </h1>
 
@@ -2576,7 +2576,7 @@ Get Google search results, but without any ads, javascript, AMP links, cookies, 
 To create a new Proxmox Whoogle LXC, run the following in the Proxmox Shell.
 
 ```yaml
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/whoogle-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/whoogle-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  512MiB RAM - 2GB Storage - 1vCPU ⚡</h3>
@@ -2603,7 +2603,7 @@ ________________________________________________________________________________
 To create a new Proxmox MotionEye VMS LXC, run the following in the Proxmox Shell.
 
 ```
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/ct/motioneye-v4.sh)"
+bash -c "$(wget -qLO - https://github.com/dbroome1978/Proxmox/raw/main/ct/motioneye-v4.sh)"
 ```
 
 <h3 align="center" id="heading">⚡ Default Settings:  2GB RAM - 8GB Storage - 2vCPU ⚡</h3>
