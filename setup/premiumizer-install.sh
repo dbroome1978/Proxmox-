@@ -47,33 +47,6 @@ function msg_error() {
 msg_info "Setting up Container OS"
 sed -i "/$LANG/ s/\(^# \)//" /etc/locale.gen
 locale-gen >/dev/null
-while [ "$(hostname -I)" = "" ]; do
-  echo 1>&2 -en "${CROSS}${RD} No Network! "
-  sleep $RETRY_EVERY
-  ((NUM--))
-  if [ $NUM -eq 0 ]; then
-    echo 1>&2 -e "${CROSS}${RD} No Network After $RETRY_NUM Tries${CL}"
-    exit 1
-  fi
-done
-msg_ok "Set up Container OS"
-msg_ok "Network Connected: ${BL}$(hostname -I)"
-
-set +e
-alias die=''
-if nc -zw1 8.8.8.8 443; then msg_ok "Internet Connected"; else
-  msg_error "Internet NOT Connected"
-    read -r -p "Would you like to continue anyway? <y/N> " prompt
-    if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]; then
-      echo -e " ⚠️  ${RD}Expect Issues Without Internet${CL}"
-    else
-      echo -e " 🖧  Check Network Settings"
-      exit 1
-    fi
-fi
-RESOLVEDIP=$(nslookup "github.com" | awk -F':' '/^Address: / { matched = 1 } matched { print $2}' | xargs)
-if [[ -z "$RESOLVEDIP" ]]; then msg_error "DNS Lookup Failure"; else msg_ok "DNS Resolved github.com to $RESOLVEDIP"; fi
-alias die='EXIT=$? LINE=$LINENO error_exit'
 set -e
 
 msg_info "Updating Container OS"
