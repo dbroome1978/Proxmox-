@@ -50,8 +50,8 @@ locale-gen >/dev/null
 set -e
 
 msg_info "Updating Container OS"
-$STD apt-get update
-$STD apt-get -y upgrade
+apt-get update
+apt-get -y upgrade
 msg_ok "Updated Container OS"
 
 msg_info "Installing Dependencies"
